@@ -1,0 +1,55 @@
+# Meu Bot — arquivos locais e segredos nunca devem ser publicados
+node_modules/
+
+# Sessões/autenticação WhatsApp (cada ambiente usa sua própria pasta)
+sessao_bot*/
+session_auth/
+auth_info_baileys/
+.wwebjs_auth/
+**/creds.json
+**/app-state-sync-key-*.json
+
+# Configuração pessoal, credenciais e segredos
+.env
+.env.*
+!.env.example
+dono.json
+config.js
+credenciais.json
+*token*
+*secret*
+
+# Dados e bancos locais (não publicar JSONs de usuários)
+*.json
+!package.json
+!package-lock.json
+!atualizacao.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups, temporários, logs e mídia temporária
+backup_*/
+backup_v*/
+backup_pre_atualizacao_*/
+.meu_bot_backups/
+*.bak
+*.bak.*
+*.backup
+*.backup_*
+*.backup_v*
+*.before-v*
+*.zip
+*.tar
+*.tar.gz
+*.tmp
+*.log
+temp/
+temp_sticker_*.webp
+
+# Estado e histórico local do atualizador
+.meu_bot_version.json
+.meu_bot_update.lock
+.meu_bot_update_journal.json
+.meu_bot_ultima_notificacao.json
+historico_atualizacoes.json
