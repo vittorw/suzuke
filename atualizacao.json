@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "versao": "1.0.4",
+  "versao_minima": "1.0.0",
+  "node_minimo": "20.9.0",
+  "arquivos": [
+    {
+      "caminho": ".gitignore",
+      "sha256": "8710af0ad8a8388aa9fb40dd11aba093d85bb64a45d12d7ca7c945564879ce12"
+    },
+    {
+      "caminho": ".env.example",
+      "sha256": "8db284716bc959cde426b74a2a97f4f5db8d6052c8729b1d2392c4d8c0e1b876"
+    },
+    {
+      "caminho": "README.md",
+      "sha256": "4078659b9fe50ffff476b7aaf6913e773a8d4cf3b5b83c70ad3d1fb9a2b3596e"
+    },
+    {
+      "caminho": "atualizador.js",
+      "sha256": "6bc56a665f317ba417571cbe8e14c94fa566a799ce80a64f1e40edd6fc8df0a3"
+    },
+    {
+      "caminho": "index.js",
+      "sha256": "f9c781e5cf4eb22bfd64344892e7b70c9624a25467f7b8e2d155f90cd6a81cc6"
+    },
+    {
+      "caminho": "bancos_jogos.js",
+      "sha256": "426a8ca22b6fd6b969d42f73625153d7869fce741d7377e78a2ad489e597889e"
+    },
+    {
+      "caminho": "jogos.js",
+      "sha256": "bc0a16126e1e20b1c9c7b0057dc03f5688f1c9dc636641f497ad19e0ecfac86b"
+    },
+    {
+      "caminho": "jogos2.js",
+      "sha256": "20db1fddf5de941fb8ea4b40853e87cc419bf7cdd3be291b7ca908c73a132f4a"
+    },
+    {
+      "caminho": "mensagem.js",
+      "sha256": "7f7eaafa4cdf776c888fe06c4d2b9b7e53aa122ad16a30d0b4ceb942958b06b1"
+    },
+    {
+      "caminho": "variados.js",
+      "sha256": "f064aaa7528ccc72fdf8bf643475cf1c8790081ad7cc66cd0a4f82459e11e37a"
+    },
+    {
+      "caminho": "relacionamentos.js",
+      "sha256": "9452aa3789ad03c7b76b7b4310c1225f81dfc76c7f76421ae4b718011398385e"
+    },
+    {
+      "caminho": "comandos/youtube.js",
+      "sha256": "d78937a5d97646d95d30a4706659d1abd602d7e4372ee7a0a32ab7189cd069eb"
+    },
+    {
+      "caminho": "comandos/tiktok.js",
+      "sha256": "9d80ab51b701a4a9e260b9b20c17c7ddea52a970d2e151da10a5136030d3984d"
+    },
+    {
+      "caminho": "comandos/sticker.js",
+      "sha256": "b79d0f07e3712195afb81e50852e916d93e044717911e10396645f1c875b597d"
+    },
+    {
+      "caminho": "comandos/twitter.js",
+      "sha256": "6e63a23ed54d45f6d996b9971c2dd142af92a627ae1208dd9bd9c4b835e50658"
+    },
+    {
+      "caminho": "comandos/jogos.js",
+      "sha256": "396269e713a32dfc8614cc16979c336616772cf5bc144bb1a6ac5d37f7a4c918"
+    },
+    {
+      "caminho": "jogos/cidadeDorme.js",
+      "sha256": "2b6d0581621120c59629bfdf1c013eaffb753040961d6230211306aca1baf634"
+    },
+    {
+      "caminho": "jogos/variados.js",
+      "sha256": "89f697dc2190f169ff0374633b96e68bf6561388e636d9270d6bf080d1a98339"
+    },
+    {
+      "caminho": "package.json",
+      "sha256": "60550bea55b9a30676936fa37ba9b3902150eee92c13347dfaf0b55c43605a21"
+    },
+    {
+      "caminho": "package-lock.json",
+      "sha256": "155dfdb51020f545e4a26a8d16c92e8d1f34b64a2217e52d55f28114bf9cb6df"
+    }
+  ],
+  "arquivos_obrigatorios": [
+    "index.js",
+    "atualizador.js",
+    "package.json",
+    "package-lock.json",
+    ".gitignore"
+  ],
+  "dependencias": {},
+  "dependencias_removidas": [],
+  "data": "2026-10-31"
+}
